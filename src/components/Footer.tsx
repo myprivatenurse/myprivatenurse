@@ -75,12 +75,27 @@ export default function Footer() {
       <div className="w-full h-px bg-gold/20" />
 
       {/* Bottom bar */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3">
+      <div className="max-w-7xl mx-auto px-6 lg:px-10 pt-6 pb-4 flex flex-col md:flex-row items-center justify-between gap-3">
         <p className="text-cream/40 text-xs font-inter">
           &copy; 2025 My Private Nurse &mdash; Danielle Olich, BSN, RN-BC. All rights reserved.
         </p>
         <p className="text-cream/40 text-xs font-inter">
           Scottsdale &amp; Phoenix, AZ &bull; myprivatenurse.health
+        </p>
+      </div>
+
+      {/* Build credit */}
+      <div className="max-w-7xl mx-auto px-6 lg:px-10 pb-6 text-center">
+        <p className="text-cream/30 text-xs font-inter">
+          Built by{' '}
+          <a
+            href="https://goldstone.solutions"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cream/45 hover:text-gold transition-colors duration-200"
+          >
+            Goldstone.solutions
+          </a>
         </p>
       </div>
     </footer>
